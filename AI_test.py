@@ -24,7 +24,7 @@ GPIO.output(18,GPIO.HIGH)
 # stuff for the AI 
 CLIENT = InferenceHTTPClient(
     api_url = "https://detect.roboflow.com", #idk if this is the correct website
-    api_key = "VnXAOy7pLdfpDLJBKeCL" # figure out what my api key is and put it in there 
+    api_key = "_____" 
 )
 
 def cameraRead():
