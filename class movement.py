@@ -9,7 +9,7 @@ right = Robot((13,19), (27,17))   #front then back
 
 CLIENT = InferenceHTTPClient(
     api_url = "https://detect.roboflow.com", #idk if this is the correct website
-    api_key = "VnXAOy7pLdfpDLJBKeCL" # figure out what my api key is and put it in there 
+    api_key = "______" # figure out what my api key is and put it in there 
 )
 
 result = CLIENT.infer(
